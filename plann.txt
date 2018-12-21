@@ -1,0 +1,31 @@
+/* functions, or mappings
+  these things convert an element from one set to an element of another according to well-defined rules
+    a given item can only be converted to one possible item in the other set
+  functions are invertible if there is a function that can reverse it perfectly
+    no loss of information
+  for this exercise, we will restrict ourselves to:
+    sets: 'string', 'number', 'boolean', 'undefined'
+    mappings: String(), Number(), Boolean(), void()
+    js gets very complicated very quickly when you stray from these
+  define subsets of our types based on how they behave when mapped
+    -> proof cases
+    which elements of ___ can be inverted when mapped to ___?
+    can all possible ___ be covered by their mappings?
+      from which sets?
+      boolean, yes
+      undefined, yes
+      number, yes?
+      string, no
+    relationship between full coverage & invertibility
+    preservation and loss of information
+  challenge: using regex to auto-build proof-cases
+*/
+
+// exercise:  writing proof-cases - test cases based on the rules of how JS works
+
+
+
+
+
+https://flaviocopes.com/how-to-convert-string-to-number-javascript/
+
