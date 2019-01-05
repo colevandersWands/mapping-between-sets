@@ -13,3 +13,6 @@ Exercises
 Challenges:
 * use regex to define the important subsets of strings for each coercer
 * explore invertability of coercions. ie. Number('1e3') === 1000 === Number('1000'), but String(1000) === 1000 === String(1e3) --> 1e3 is "lost", there is no way to know it was the original argument  
+
+todo: 
+* factor out consolemd in favor of inline console styling - so you can see the file & line for each log
